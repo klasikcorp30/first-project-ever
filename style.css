@@ -1,0 +1,225 @@
+/* ID Styling */
+
+#image
+		{
+			float: right;
+			position: relative;
+			right: 0px;
+			top: -110px;
+			border: 10px white solid;
+			transform: rotate(-4deg);
+		}
+
+#careerobjective
+				{
+ 					text-align: left;
+ 					font-style: italic;
+ 					font-family: Georgia, sans-serif;
+ 					padding: 12px;
+ 					line-height: 30px;
+ 					font-size: 20px;
+
+ 					
+  				}
+
+
+#contactinfo
+				{
+					font-weight: bold;
+				}
+
+#myskills
+			{
+				font-family: Georgia, "Times New Roman", sans-serif;
+				font-size: 14px;
+			}
+
+
+#headeducation
+				{
+					position: relative;
+					top: 45px;
+					left: 10px;
+					font-family: Arial, sans-serif;
+
+				}
+
+#headskills
+				{
+
+					position: relative;
+					top: 45px;
+					left: 60px;
+					font-family: Arial, sans-serif;
+				}
+
+#headexperience
+				{
+					position: relative;
+					top: 45px;
+					left: 20px;
+					font-family: Arial, sans-serif;
+				}
+
+#university
+				{
+					font-family: "Times New Roman", sans-serif;
+					font-weight: bold;
+					font-size: 24px;
+				}
+
+#headhobbies
+				{
+					position: relative;
+					top: 40px;
+					font-family: Verdana, sans-serif;
+				}
+
+#headreference
+				{
+					position: relative;
+					top: 50px;
+					font-family: Arial, sans-serif;
+				}
+
+#separatebox
+				{
+					border-top: 1px solid black;
+					/*width: 50em;*/
+
+				}
+
+#myname
+			{
+				text-shadow: 4px 4px 8px blue;
+
+				color: rgb(23,67,65);
+				font-family: wooodcut;
+				font-size: 50px;
+				animation-name: fontclrchange;
+ 					animation-duration: 5s;
+ 					animation-direction: alternate-reverse;
+ 					animation-iteration-count: infinite;
+
+			}
+
+#education
+			{
+				font-family: Georgia;
+				font-size: 14px;
+			}
+
+
+/* Class Styling */
+
+
+.personalinfo
+				{
+					/*background-color: rgb(205,155,160);*/
+					border-radius: 15px;
+					padding-left: 3px;
+					/*box-shadow: 4px 4px 8px green;*/
+					animation-name: clrchangebox;
+					/*animation-duration: 5s;
+					animation-iteration-count: infinite;
+					animation-direction: alternate-reverse;*/
+					/*width: 50em;*/
+
+				}
+ 
+ .box1
+				{
+					border-left: solid black 1px;
+					padding-left: 10px;
+					padding-top: 0px;
+					position: relative;
+					left: 140px;	
+					line-height: 20px;				
+
+
+				}
+
+.heading
+		{
+			font-weight: bold;
+			font-family: "Verdana";
+			font-size: 22px;
+		}
+
+
+.resumeinfo
+			{
+				position: relative;
+				left: 30px;
+			}
+
+
+a:hover
+
+		{
+			color: aqua;
+			text-shadow: 4px 4px 8px red;
+			
+		}
+
+:link
+		{
+		color: yellow;
+
+		}
+
+:active
+		{
+			color: green;
+			font-family: cursive;
+		}
+
+.body
+		{
+			background-color: rgb(160,175,190); 
+			color: white;
+			font-size: large;
+			animation-name: clrchange;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate-reverse;
+			background-image:url(C:\Users\brown\Desktop\Second Year Notes\Semester 1\Dynamic Web Development - INFO2180\Project 1\IMAGES\bkgimage.jpg);
+
+		}
+ol.customlist
+			{
+				list-style: square;
+				font-family: Verdana,Arial,Helvetica,sans-serif;
+				color: red;
+				text-shadow: 4px 4px 8px blue;
+
+			}
+
+
+
+/* Regular tag styling */
+
+@keyframes clrchange
+	 
+						{ 0%{background: rgba(154,85,117,0.5)}
+						25%{background: rgb(170,170,78);}
+				 		50%{backgoround: rgb(152,232,190);}
+				 		100%{background:rgb(109,90,115);}
+						}
+
+@keyframes clrchangebox
+	 
+						{ 0%{background: blue;}
+						/*25%{background: red;}
+				 		50%{backgoround: turquoise;}*/
+				 		100%{background: green;}
+						}
+
+@keyframes fontclrchange
+						{
+							/*0%{color: pink;}
+							100%{color: black;}*/
+							0%{text-shadow: 4px 4px 10px blue;}
+							50%{text-shadow: 4px 4px 10px yellow;}
+							100%{text-shadow: 4px 4px 10px red;}
+						}
