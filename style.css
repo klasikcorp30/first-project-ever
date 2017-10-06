@@ -4,7 +4,7 @@
 		{
 			float: right;
 			position: relative;
-			right: 0px;
+			right: 20px;
 			top: -110px;
 			border: 10px white solid;
 			transform: rotate(-4deg);
@@ -30,7 +30,7 @@
 
 #myskills
 			{
-				font-family: Georgia, "Times New Roman", sans-serif;
+				font-family: "Roboto Slab", sans-serif;
 				font-size: 14px;
 			}
 
@@ -39,8 +39,8 @@
 				{
 					position: relative;
 					top: 45px;
-					left: 10px;
-					font-family: Arial, sans-serif;
+					left: 30px;
+					font-family: "Roboto Slab", sans-serif;
 
 				}
 
@@ -48,9 +48,9 @@
 				{
 
 					position: relative;
-					top: 45px;
-					left: 60px;
-					font-family: Arial, sans-serif;
+					top: 43px;
+					left: 78px;
+					font-family: "Roboto Slab", sans-serif;
 				}
 
 #headexperience
@@ -58,12 +58,12 @@
 					position: relative;
 					top: 45px;
 					left: 20px;
-					font-family: Arial, sans-serif;
+					font-family: "Roboto Slab", sans-serif;
 				}
 
 #university
 				{
-					font-family: "Times New Roman", sans-serif;
+					font-family: "Dosis", sans-serif;
 					font-weight: bold;
 					font-size: 24px;
 				}
@@ -72,14 +72,17 @@
 				{
 					position: relative;
 					top: 40px;
-					font-family: Verdana, sans-serif;
+					left: 45px;
+					font-family: "Roboto Slab", sans-serif;
+					
 				}
 
 #headreference
 				{
 					position: relative;
-					top: 50px;
-					font-family: Arial, sans-serif;
+					top: 40px;
+					left: 20px;
+					font-family: "Roboto Slab", sans-serif;
 				}
 
 #separatebox
@@ -130,11 +133,13 @@
  .box1
 				{
 					border-left: solid black 1px;
-					padding-left: 10px;
+					padding-left: 30px;
 					padding-top: 0px;
 					position: relative;
 					left: 140px;	
-					line-height: 20px;				
+					line-height: 20px;
+					font-style: italic;
+					font-family: "Lucida sans";				
 
 
 				}
@@ -195,6 +200,21 @@ ol.customlist
 
 			}
 
+.fontfamily
+				{
+					font-style: "sans-serif";
+					font-style: italic;
+				}
+
+
+.number
+		{
+			animation-name: numberclrchange;
+ 					animation-duration: 3s;
+ 					animation-direction: alternate-reverse;
+ 					animation-iteration-count: infinite;
+
+		}
 
 
 /* Regular tag styling */
@@ -222,4 +242,11 @@ ol.customlist
 							0%{text-shadow: 4px 4px 10px blue;}
 							50%{text-shadow: 4px 4px 10px yellow;}
 							100%{text-shadow: 4px 4px 10px red;}
+						}
+
+@keyframes numberclrchange
+						{
+							0%{font-size: xx-large;}
+							100%{font-size: normal;}
+
 						}
